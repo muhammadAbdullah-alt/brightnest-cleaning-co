@@ -211,6 +211,18 @@
   function closeBooking() {
     if (!modal) return;
     modal.hidden = true; document.body.style.overflow = '';
+    // v2.1 fix (found in live verification 2026-11-11): reopening the modal
+    // used to show the previous visitor's values and success message.
+    // Reset it so every open starts clean.
+    var bf = $('#bookingForm');
+    if (bf) {
+      bf.reset();
+      $$('.field-error', bf).forEach(function (e) { e.remove(); });
+      $$('[aria-invalid]', bf).forEach(function (el) { el.removeAttribute('aria-invalid'); });
+    }
+    ['bookingSuccess', 'bookingSummary', 'downloadBooking'].forEach(function (id) {
+      var el = document.getElementById(id); if (el) el.hidden = true;
+    });
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
   $$('[data-open-booking]').forEach(function (b) { b.addEventListener('click', function () { openBooking(); }); });
