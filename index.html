@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightNest Cleaning Co. (Fictional Demo) | House Cleaning in Austin, TX</title>
+  <meta name="description" content="Fictional portfolio demo for BrightNest Cleaning Co., a made-up house-cleaning company in Austin, TX. Illustrative services, pricing and sample reviews — no real bookings, no real business.">
+  <!-- Fictional demo: noindex so this demo is never mistaken for a real business in search results. Remove only when replaced with a real, verified business. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="author" content="BrightNest Cleaning Co. (fictional demo)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BrightNest Cleaning Co. — Fictional Demo | A Spotless Home, Without Lifting a Finger">
+  <meta property="og:description" content="Portfolio demo only. Illustrative cleaning services and pricing for Austin, TX. No real bookings.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=80">
+  <meta property="og:locale" content="en_US">
+  <meta name="theme-color" content="#0c2b2d">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "BrightNest Cleaning Co. — fictional demo, not a real business",
+    "description": "Fictional portfolio demonstration. No real services, staff, ratings or bookings.",
+    "telephone": "+1-512-555-0148",
+    "email": "hello@brightnestcleaning.demo",
+    "priceRange": "$$ (illustrative)",
+    "address": { "@type": "PostalAddress", "addressLocality": "Austin", "addressRegion": "TX", "postalCode": "78701", "addressCountry": "US" }
+  }
+  </script>
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body data-billing="once">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <!-- DEMO BANNER — keep on every demo deployment. Remove only for a real business. -->
+  <div class="demo-banner" role="note"><strong>⚠ Fictional portfolio demo.</strong> BrightNest is not a real company. Prices are illustrative, reviews are samples, and the phone / email / WhatsApp details are DEMO placeholders that reach nobody. No request on this page is stored or sent.</div>
+  <div class="topbar">
+    <p>✦ <strong>Illustrative offer (sample only):</strong> 20% off a first deep clean in this demo &nbsp;·&nbsp; Austin, TX (fictional) &nbsp;·&nbsp; Mon–Sat, 8am–6pm CT</p>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="BrightNest Cleaning Co. fictional demo — home">Bright<span>Nest</span><i>✦</i> <span class="demo-tag">DEMO</span></a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reviews">Sample reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+15125550148" data-config-phone-label>📞 (512) 555-0148 <span class="demo-inline">DEMO</span></a>
+        <button class="btn btn-primary btn-sm" data-open-booking type="button">Book a Service</button>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Fictional demo · Austin, TX · Illustrative pricing</span>
+          <h1 id="heroTitle">A spotless home,<br><em>without lifting<br>a finger.</em></h1>
+          <p class="hero-sub">A premium website demo for a made-up Austin cleaning company. Get an instant illustrative quote, explore the packages, and try the booking flow — nothing here books a real clean.</p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary btn-lg" data-open-booking type="button">Book a Service →</button>
+            <a class="btn btn-ghost btn-lg" href="#quote">Get a Free Quote</a>
+          </div>
+          <p class="hero-cta-note">Free quote in 60 seconds · No account needed · <strong>Demo only — no payment is taken</strong></p>
+          <ul class="hero-trust">
+            <li>✓ No contracts in this demo</li><li>✓ Eco-friendly products (sample)</li><li>✓ Illustrative prices</li><li>✓ No backend — nothing is stored</li>
+          </ul>
+        </div>
+
+        <div class="hero-card reveal" id="quote">
+          <div class="quote-card">
+            <h2>Get your instant quote</h2>
+            <p class="quote-note">No email required. Illustrative price only — see the formula in <code>js/config.js</code>.</p>
+            <form id="quoteForm" novalidate>
+              <div class="field-row">
+                <label for="qBeds">Bedrooms
+                  <select id="qBeds"><option value="1">1 bedroom</option><option value="2" selected>2 bedrooms</option><option value="3">3 bedrooms</option><option value="4">4 bedrooms</option><option value="5">5+ bedrooms</option></select>
+                </label>
+                <label for="qBaths">Bathrooms
+                  <select id="qBaths"><option value="1">1 bathroom</option><option value="2" selected>2 bathrooms</option><option value="3">3 bathrooms</option><option value="4">4+ bathrooms</option></select>
+                </label>
+              </div>
+              <label for="qType">Cleaning type
+                <select id="qType">
+                  <option value="regular">Regular clean — maintenance</option>
+                  <option value="deep">Deep clean — detailed top-to-bottom</option>
+                  <option value="move">Move-in / move-out clean</option>
+                  <option value="airbnb">Airbnb turnover</option>
+                </select>
+              </label>
+              <label for="qFreq">How often?
+                <select id="qFreq">
+                  <option value="weekly">Weekly — save 20%</option>
+                  <option value="biweekly" selected>Every 2 weeks — save 15%</option>
+                  <option value="monthly">Monthly — save 10%</option>
+                  <option value="once">One-time</option>
+                </select>
+              </label>
+              <div class="price-line" aria-live="polite"><span>Estimated price</span><strong id="quotePrice">$110</strong><span class="per">/ visit · illustrative</span></div>
+              <p class="price-detail" id="quoteDetail">2 bed · 2 bath · Regular · Every 2 weeks</p>
+              <p class="price-detail" id="quoteRecommend">Recommended package: Essential — $129 one-time.</p>
+              <button type="submit" class="btn btn-primary btn-block">Book this clean →</button>
+              <p class="fineprint">Illustrative estimate only. In a real business the final price would be confirmed before payment. Free rescheduling up to 24h before — in this demo, nothing is booked.</p>
+            </form>
+          </div>
+          <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80&auto=format&fit=crop" alt="Professional cleaner wiping a bright modern kitchen counter" width="1000" height="667" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1000&q=80&auto=format&fit=crop';">
+            <div class="float-badge"><strong>Demo</strong><span>Design &amp; flow<br>showcase only</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="container logo-strip reveal"><span>SERVICE AREA (FICTIONAL)</span><strong>Austin</strong><strong>Round Rock</strong><strong>Cedar Park</strong><strong>Pflugerville</strong><strong>Lakeway</strong></div>
+    </section>
+
+    <!-- DEMO TRANSPARENCY — replaces the old fake statistics -->
+    <section class="stats" aria-label="About this demo">
+      <div class="container stats-grid stats-demo">
+        <div><strong>6</strong><span>services shown</span></div>
+        <div><strong>3</strong><span>illustrative packages</span></div>
+        <div><strong>60s</strong><span>quote &amp; booking flow</span></div>
+        <div><strong>0</strong><span>backends · 0 data stored</span></div>
+      </div>
+      <p class="container stats-note">No customer counts, ratings or response times are claimed here — the previous version showed unverified figures. A real business must only publish numbers it can prove.</p>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="servicesTitle">
+      <div class="container section-head reveal">
+        <span class="eyebrow">Our services</span>
+        <h2 id="servicesTitle">Every room. Every detail.<br>Done properly.</h2>
+        <p>Pick the clean that fits your life. In this demo every visit follows the same sample 50-point checklist — kitchens, bathrooms, floors, dusting, and the little touches most cleaners skip.</p>
+      </div>
+      <div class="container services-grid">
+        <article class="service-card reveal"><div class="service-icon" aria-hidden="true">🏠</div><h3>Regular House Cleaning</h3><p>Weekly or biweekly maintenance for busy homes. Dusting, vacuuming, mopping, kitchen &amp; bathroom refresh — so it never builds up again.</p><p class="service-meta">From $129 / visit · 2–3 hrs · illustrative</p><button class="btn btn-outline btn-block" type="button" data-service="regular">Book Regular →</button></article>
+        <article class="service-card reveal"><div class="service-icon" aria-hidden="true">✨</div><h3>Deep Cleaning</h3><p>Our most thorough clean. Inside oven &amp; fridge, baseboards, grout, light fixtures, vents and hard-to-reach corners. Perfect for spring or first visits.</p><p class="service-meta">From $249 / visit · 4–6 hrs · illustrative</p><button class="btn btn-outline btn-block" type="button" data-service="deep">Book Deep →</button></article>
+        <article class="service-card reveal"><div class="service-icon" aria-hidden="true">📦</div><h3>Move-In / Move-Out</h3><p>Empty-home deep clean for landlords, tenants and new homeowners. Deposit-friendly checklist and photo report on request.</p><p class="service-meta">From $289 / visit · 4–7 hrs · illustrative</p><button class="btn btn-outline btn-block" type="button" data-service="move">Book Move-In / Out →</button></article>
+        <article class="service-card reveal"><div class="service-icon" aria-hidden="true">🛏️</div><h3>Airbnb Turnover</h3><p>Fast, hotel-standard turnovers with fresh linen, restocking and photo confirmation before your next guest checks in.</p><p class="service-meta">From $89 / turnover · Same-day · illustrative</p><button class="btn btn-outline btn-block" type="button" data-service="airbnb">Book Turnover →</button></article>
+        <article class="service-card reveal"><div class="service-icon" aria-hidden="true">🏢</div><h3>Office &amp; Commercial</h3><p>Daily or weekly cleaning for offices, studios and retail in Austin. After-hours slots, consumables restocked, one point of contact.</p><p class="service-meta">Custom quote · Flexible hours · illustrative</p><a href="#contact" class="btn btn-outline btn-block">Request a quote →</a></article>
+        <article class="service-card reveal"><div class="service-icon" aria-hidden="true">🌿</div><h3>Eco-Friendly Cleaning</h3><p>Plant-based, non-toxic products safe for kids, pets and allergy sufferers — at no extra charge in this demo. Just tick “Eco” at checkout.</p><p class="service-meta">Included free · Pet-safe · illustrative</p><button class="btn btn-outline btn-block" type="button" data-service="regular">Book Eco Clean →</button></article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="how-it-works" aria-labelledby="howTitle">
+      <div class="container section-head reveal">
+        <span class="eyebrow light">How it works</span>
+        <h2 class="light" id="howTitle">Book in 60 seconds.<br>Try the flow below.</h2>
+      </div>
+      <div class="container steps-grid">
+        <div class="step reveal"><span class="step-num">01</span><h3>Get your price</h3><p>Tell us bedrooms, bathrooms and cleaning type. Instant illustrative quote, no email, no phone call needed.</p></div>
+        <div class="step reveal"><span class="step-num">02</span><h3>Pick a time</h3><p>Choose a day and 2-hour arrival window that suits you. In a real business, same-week slots would be shown here.</p></div>
+        <div class="step reveal"><span class="step-num">03</span><h3>See your request</h3><p>Submit the booking form and you get a local summary you can copy or download. Nothing is sent or stored — there is no backend in this demo.</p></div>
+      </div>
+      <div class="container center reveal"><button class="btn btn-accent btn-lg" data-open-booking type="button">Try booking — no payment, no account</button></div>
+    </section>
+
+    <section class="section" id="pricing" aria-labelledby="pricingTitle">
+      <div class="container section-head reveal">
+        <span class="eyebrow">Pricing &amp; packages</span>
+        <h2 id="pricingTitle">Simple, honest pricing.<br>No hidden fees.</h2>
+        <p><span class="demo-badge">Illustrative pricing — sample only</span> Prices are examples for this portfolio demo, for a typical 2-bed / 2-bath home. A real business must confirm its own prices before publishing them.</p>
+        <div class="billing-toggle" role="group" aria-label="Billing frequency"><button class="toggle-btn active" type="button" data-billing="once" aria-pressed="true">One-time</button><button class="toggle-btn" type="button" data-billing="recurring" aria-pressed="false">Recurring — save up to 20%</button></div>
+        <p class="fineprint" id="billingNote" style="text-align:left">One-time prices shown. Switch to Recurring to see the discounted rates. Illustrative pricing.</p>
+      </div>
+      <div class="container pricing-grid">
+        <article class="price-card reveal" data-package="essential">
+          <h3>Essential</h3><p class="price-desc">For tidy homes that need regular upkeep.</p>
+          <p class="price"><span class="currency">$</span><span class="amount" data-once="129" data-recurring="103">129</span><span class="per">/ visit</span></p>
+          <ul><li>✓ All rooms dusted &amp; vacuumed</li><li>✓ Kitchen &amp; bathroom refresh</li><li>✓ Floors mopped</li><li>✓ Mirrors &amp; surfaces wiped</li><li>✓ Trash emptied &amp; liners replaced</li><li class="muted">✕ Inside oven / fridge</li></ul>
+          <button class="btn btn-outline btn-block" type="button" data-plan="essential">Choose Essential</button>
+        </article>
+        <article class="price-card featured reveal" data-package="signature">
+          <span class="badge">Most popular in demo</span>
+          <h3>Signature</h3><p class="price-desc">Our best-value clean in this demo.</p>
+          <p class="price"><span class="currency">$</span><span class="amount" data-once="189" data-recurring="151">189</span><span class="per">/ visit</span></p>
+          <ul><li>✓ Everything in Essential</li><li>✓ Inside microwave &amp; cabinets</li><li>✓ Shower descaling &amp; grout scrub</li><li>✓ Baseboards &amp; door frames</li><li>✓ Bed linen changed</li><li>✓ Eco products included</li></ul>
+          <button class="btn btn-primary btn-block" type="button" data-plan="signature">Choose Signature</button>
+        </article>
+        <article class="price-card reveal" data-package="premium">
+          <h3>Premium Deep</h3><p class="price-desc">Top-to-bottom reset for first visits &amp; moves.</p>
+          <p class="price"><span class="currency">$</span><span class="amount" data-once="289" data-recurring="245">289</span><span class="per">/ visit</span></p>
+          <ul><li>✓ Everything in Signature</li><li>✓ Inside oven &amp; fridge</li><li>✓ Inside windows &amp; blinds</li><li>✓ Light fixtures &amp; vents</li><li>✓ Wall spot-cleaning</li><li>✓ Photo report after clean</li></ul>
+          <button class="btn btn-outline btn-block" type="button" data-plan="premium">Choose Premium Deep</button>
+        </article>
+      </div>
+      <p class="container center muted reveal">Add-ons (illustrative): laundry &amp; fold $25 · Inside fridge $20 · Pet-hair treatment $15 · Key pickup $0. All prices are set in one place: <code>js/config.js</code>.</p>
+    </section>
+
+    <section class="section section-cream" id="why-us" aria-labelledby="whyTitle">
+      <div class="container split-grid">
+        <div class="reveal">
+          <span class="eyebrow">Why this demo</span>
+          <h2 id="whyTitle">What a trustworthy<br>cleaning site should show.</h2>
+          <ul class="check-list">
+            <li><strong>Verified claims only.</strong> A real site should list insurance, vetting and guarantees only if it can prove them. This demo deliberately does not.</li>
+            <li><strong>One clear checklist.</strong> Every visit in this demo follows the same sample 50-point checklist, shown room by room.</li>
+            <li><strong>Price before email.</strong> The quote calculator shows an illustrative price first — the visitor is never forced to share details to see a number.</li>
+            <li><strong>No dead ends.</strong> Every section ends in one action: get a quote, try booking, or contact — with an honest note that this demo sends nothing.</li>
+          </ul>
+          <a class="btn btn-primary" href="#contact">Get a Free Quote →</a>
+        </div>
+        <div class="ba-wrap reveal">
+          <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1000&q=80&auto=format&fit=crop" alt="Bright, freshly cleaned living room" width="1000" height="667" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.display='none';">
+          <div class="ba-card"><strong>“It smells like a hotel when I walk in.”</strong><span>— Sample quote, see Sample reviews</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews" aria-labelledby="reviewsTitle">
+      <div class="container section-head reveal">
+        <span class="eyebrow">Sample reviews</span>
+        <h2 id="reviewsTitle">Sample reviews —<br>not real customers.</h2>
+        <p class="disclaimer">⚠ These are <strong>clearly fictional sample testimonials</strong> written for this portfolio demo. Names, places and star ratings are invented. A real business must replace them with genuine, verifiable customer reviews — and only publish a rating it has actually earned.</p>
+      </div>
+      <div class="container testimonials" id="testimonialSlider" aria-live="polite">
+        <article class="testimonial active" aria-hidden="false"><div class="stars" aria-label="Sample rating: 5 out of 5 stars">★★★★★</div><blockquote>“I booked on my lunch break and by Friday the whole house felt brand new. The kitchen — I didn’t think it could shine like that again.”</blockquote><footer><span class="t-avatar" aria-hidden="true">SM</span><div><strong>Sarah M. — sample</strong><span>Downtown Austin · Signature Clean · Fictional</span></div></footer></article>
+        <article class="testimonial" aria-hidden="true"><div class="stars" aria-label="Sample rating: 5 out of 5 stars">★★★★★</div><blockquote>“Our Airbnb turnover time dropped to under two hours and our guest ratings went up. The photo report after every clean is gold.”</blockquote><footer><span class="t-avatar" aria-hidden="true">JT</span><div><strong>James T. — sample</strong><span>East Austin · Airbnb Host · Fictional</span></div></footer></article>
+        <article class="testimonial" aria-hidden="true"><div class="stars" aria-label="Sample rating: 5 out of 5 stars">★★★★★</div><blockquote>“Two kids, one dog, zero time. BrightNest is the one thing I don’t have to think about anymore. Same cleaner, same high standard.”</blockquote><footer><span class="t-avatar" aria-hidden="true">PR</span><div><strong>Priya R. — sample</strong><span>Round Rock · Weekly Essential · Fictional</span></div></footer></article>
+      </div>
+      <div class="container slider-controls reveal"><button id="prevTestimonial" type="button" aria-label="Previous sample review">←</button><span id="testimonialDots"></span><button id="nextTestimonial" type="button" aria-label="Next sample review">→</button></div>
+    </section>
+
+    <section class="section section-cream" id="faq" aria-labelledby="faqTitle">
+      <div class="container section-head reveal"><span class="eyebrow">FAQ</span><h2 id="faqTitle">Questions? Answered.</h2></div>
+      <div class="container faq-list">
+        <details open><summary>Is BrightNest a real cleaning company?</summary><p>No. BrightNest is a fictional company created for this portfolio demo. Nothing on this page books, charges or contacts a real cleaner.</p></details>
+        <details><summary>Are the prices real?</summary><p>No — they are illustrative examples ($129 / $189 / $289 one-time). The formula is in <code>js/config.js</code> so you can see exactly how each quote is calculated, and change it in one place.</p></details>
+        <details><summary>Are the reviews real?</summary><p>No. All three are samples with invented names. A real business must use genuine reviews with permission, and must not invent a star rating.</p></details>
+        <details><summary>What happens when I submit a form?</summary><p>Nothing is sent or stored. The form is validated in your browser and shows you a local summary you can copy or download. There is no backend, CRM, email service or payment in this demo — see the README for what a live version needs.</p></details>
+        <details><summary>Do the phone, email and WhatsApp links work?</summary><p>Not in demo mode. They are labelled DEMO and, when clicked, explain that they are placeholders. Set <code>isDemo: false</code> in <code>js/config.js</code> with real, verified details to enable them.</p></details>
+        <details><summary>Which areas would a real version serve?</summary><p>The demo uses Austin, Round Rock, Cedar Park, Pflugerville and Lakeway as sample areas. A real business should list only the areas it actually serves.</p></details>
+      </div>
+    </section>
+
+    <section class="cta-banner" aria-labelledby="ctaTitle">
+      <div class="container cta-inner reveal">
+        <div><h2 id="ctaTitle">Try the booking flow.<br>No payment, no account.</h2><p>See how a visitor goes from quote to booking request in under a minute — in this demo, nothing is sent.</p></div>
+        <div class="cta-buttons"><button class="btn btn-accent btn-lg" data-open-booking type="button">Book a Service</button><button class="btn btn-white btn-lg" type="button" data-whatsapp>💬 WhatsApp us <span class="demo-inline">DEMO</span></button></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contactTitle">
+      <div class="container section-head reveal"><span class="eyebrow">Contact</span><h2 id="contactTitle">Get a free quote<br>or just say hello.</h2><p>In this demo, no message is sent or stored. Fill in the form to see validation and the local-only summary. In a live version, replies would come within one business hour, Mon–Sat 8am–6pm CT.</p></div>
+      <div class="container contact-grid">
+        <form id="contactForm" class="contact-form reveal" novalidate>
+          <div class="field-row"><label for="contactName">Full name *<input type="text" id="contactName" name="name" required placeholder="e.g. Alex Morgan" autocomplete="name"></label><label for="contactPhone">Phone *<input type="tel" id="contactPhone" name="phone" required placeholder="(512) 555-0100" autocomplete="tel"></label></div>
+          <label for="contactEmail">Email *<input type="email" id="contactEmail" name="email" required placeholder="you@example.com" autocomplete="email"></label>
+          <div class="field-row"><label for="contactService">Service needed<select id="contactService" name="service"><option>Regular House Cleaning</option><option>Deep Cleaning</option><option>Move-In / Move-Out</option><option>Airbnb Turnover</option><option>Office &amp; Commercial</option></select></label><label for="contactDate">Preferred date<input type="date" id="contactDate" name="date"></label></div>
+          <label for="contactMessage">Your message<textarea id="contactMessage" name="message" rows="4" placeholder="Tell us about your home — size, pets, anything we should know…"></textarea></label>
+          <label class="checkbox" for="contactConsent"><input type="checkbox" id="contactConsent" required> I agree to be contacted about my quote. *</label>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Send — Get My Free Quote →</button>
+          <p class="form-success" id="formSuccess" hidden>✓ Thanks! This is a demo — your request was <strong>not sent or stored</strong>. In the live version it would go to the business by email / CRM.</p>
+          <p class="fineprint"><strong>No backend in this demo.</strong> Submissions are validated locally only. Connect Formspree, Netlify Forms or your CRM to go live — see README § “Going live”.</p>
+        </form>
+        <aside class="contact-info reveal" aria-label="Demo contact details">
+          <h3>Demo contact details</h3>
+          <p><strong>📞 <span data-config-phone>(512) 555-0148 (DEMO)</span></strong><br><span>Mon–Sat, 8am–6pm CT · DEMO — reaches nobody</span></p>
+          <p><strong>✉️ <span data-config-email>hello@brightnestcleaning.demo (DEMO)</span></strong><br><span>Quotes &amp; bookings · DEMO — reaches nobody</span></p>
+          <p><strong>📍 Austin, TX 78701 (demo address)</strong><br><span>Serving Greater Austin in this fictional demo</span></p>
+          <button class="btn btn-whatsapp btn-block" type="button" data-whatsapp>💬 Chat on WhatsApp <span class="demo-inline">DEMO</span></button>
+          <button class="btn btn-ghost btn-block" type="button" data-email-link style="margin-top:10px">✉️ Email us <span class="demo-inline">DEMO</span></button>
+          <p class="fineprint" style="color:#a8c6bd">WhatsApp / email are disabled in demo mode and show a notice instead of opening a dead number. Enable them in <code>js/config.js</code> with real details.</p>
+          <div class="mini-map" aria-label="Sample service area">🗺️ Austin · Round Rock · Cedar Park · Pflugerville · Lakeway</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a href="#top" class="logo light">Bright<span>Nest</span><i>✦</i> <span class="demo-tag">DEMO</span></a><p><strong>Fictional portfolio demo.</strong> BrightNest Cleaning Co. is not a real business. No real bookings, services, staff or reviews.</p><p class="fineprint">© 2026 BrightNest Cleaning Co. (Demo). Prices are illustrative. Testimonials are samples. Phone (512) 555-0148 and hello@brightnestcleaning.demo are DEMO placeholders.</p></div>
+      <div><h4>Services</h4><a href="#services">Regular Cleaning</a><a href="#services">Deep Cleaning</a><a href="#services">Move-In / Out</a><a href="#services">Airbnb Turnover</a></div>
+      <div><h4>Company</h4><a href="#pricing">Pricing</a><a href="#reviews">Sample reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+      <div><h4>Try it</h4><button class="btn btn-accent" data-open-booking type="button">Book a Service</button><p class="footer-phone" data-config-phone>(512) 555-0148 (DEMO)</p></div>
+    </div>
+  </footer>
+
+  <button class="whatsapp-float" type="button" data-whatsapp aria-label="Chat on WhatsApp — demo placeholder">💬<span>Chat with us · DEMO</span></button>
+
+  <div class="modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="bookingTitle" hidden>
+    <div class="modal-backdrop" data-close-booking></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close-booking type="button" aria-label="Close booking form">✕</button>
+      <span class="eyebrow">Book a service — demo</span>
+      <h2 id="bookingTitle">Book your clean</h2>
+      <p class="muted">60 seconds. <strong>No payment is taken and nothing is sent or stored</strong> — this demo has no backend.</p>
+      <form id="bookingForm" novalidate>
+        <label for="bookingService">Service
+          <select id="bookingService">
+            <option value="regular">Regular clean</option>
+            <option value="deep">Deep clean</option>
+            <option value="move">Move-in / move-out clean</option>
+            <option value="airbnb">Airbnb turnover</option>
+          </select>
+        </label>
+        <label for="bookingPlan">Package<select id="bookingPlan"></select></label>
+        <p class="price-detail" id="bookingPriceHint">Estimated from $129 for this service type (illustrative — see the quote calculator).</p>
+        <div class="field-row"><label for="bookingDate">Date *<input type="date" id="bookingDate" required></label><label for="bookingTime">Time<select id="bookingTime"><option>8:00 – 10:00 AM</option><option>10:00 AM – 12:00 PM</option><option>1:00 – 3:00 PM</option><option>3:00 – 5:00 PM</option></select></label></div>
+        <label for="bookingName">Name *<input type="text" id="bookingName" required placeholder="Your full name" autocomplete="name"></label>
+        <div class="field-row"><label for="bookingEmail">Email *<input type="email" id="bookingEmail" required placeholder="you@example.com" autocomplete="email"></label><label for="bookingPhone">Phone *<input type="tel" id="bookingPhone" required placeholder="(512) 555-0100" autocomplete="tel"></label></div>
+        <label for="bookingAddress">Address *<input type="text" id="bookingAddress" required placeholder="Street address, Austin, TX" autocomplete="street-address"></label>
+        <button type="submit" class="btn btn-primary btn-block btn-lg">Prepare booking request →</button>
+        <p class="form-success" id="bookingSuccess" hidden>✓ Request prepared locally (demo). It was <strong>not sent, stored or charged</strong>.</p>
+        <pre class="booking-summary" id="bookingSummary" hidden></pre>
+        <button type="button" class="btn btn-outline btn-block" id="downloadBooking" hidden>Download request as .txt</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script src="js/config.js" defer></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
